@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Privacy Bubble</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; width: 300px; }
+    .green { color: green; }
+    .yellow { color: orange; }
+    .red { color: red; }
+    .section { margin-top: 10px; }
+    button { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>Privacy Bubble</h3>
+  <div id="status">Loading...</div>
+
+  <div class="section">
+    <strong>Трекеры:</strong>
+    <ul id="tracker-list"></ul>
+  </div>
+
+  <div class="section">
+    <strong>Сторонние домены:</strong>
+    <ul id="thirdparty-list"></ul>
+  </div>
+
+  <div class="section">
+    <strong>Куки сторонних доменов:</strong>
+    <ul id="cookie-list"></ul>
+    <button id="clear-cookies">Очистить сторонние куки</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

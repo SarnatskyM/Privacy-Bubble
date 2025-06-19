@@ -6,8 +6,7 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "cookies",
-    "storage"
+    "cookies"
   ],
   "host_permissions": [
     "<all_urls>"
